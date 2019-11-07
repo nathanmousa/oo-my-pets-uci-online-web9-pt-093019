@@ -13,7 +13,7 @@ class Owner
   end
   
   def cats
-    Cat.all.detect
+    Cat.all.select
   end
   
   def self.all
