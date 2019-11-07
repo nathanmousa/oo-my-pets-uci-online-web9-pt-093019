@@ -12,6 +12,9 @@ class Owner
     "I am a #{@species}."
   end
   
+  def cats
+    
+  end
   
   def self.all
     @@all
