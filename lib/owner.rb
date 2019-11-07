@@ -32,6 +32,8 @@ class Owner
     @@all.clear
   end
   
+  
+  
   private
   def save
     @@all << self if !@@all.include?(self)
