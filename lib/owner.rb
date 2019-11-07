@@ -13,7 +13,7 @@ class Owner
   end
   
   def cats
-    Cat.all.select {|x| x }
+    Cat.all.select {|x| x == self}
   end
   
   def self.all
