@@ -13,7 +13,7 @@ class Owner
   end
   
   def cats
-    
+    Cat.all
   end
   
   def self.all
